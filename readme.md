@@ -23,6 +23,15 @@ git config --list
    ´´´´
 
 
+   git commit -a  -m  "Saltando el area de preparacion";
+
+   agrega los al chivos que ya estamos ratreando en el repocitorio de git 
+
+
+   git commit 
+   permite hacer un comit desde el editor de texto predeterminado
+
+
 
 
 
