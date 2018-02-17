@@ -34,7 +34,16 @@ Elimina  un archivo
 ##git checkout -- archivo
 recupera el archivo 
 
-##git mv
+##git mv 
+git mv file_from file_to
+Renombrar archivos
+Equivalente a los siguientes pasos
+```
+1.-Renombrar el archivo manualmente
+2.- git rm eliminar el archivo con git
+3.- git add para agregar el archivo con el nuevo nombre
+´´´´
+
 
 
 
