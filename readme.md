@@ -42,8 +42,40 @@ Equivalente a los siguientes pasos
 1.-Renombrar el archivo manualmente
 2.- git rm eliminar el archivo con git
 3.- git add para agregar el archivo con el nuevo nombre
-´´´´
+```
+##git log 
+Muesta el historial de confirmaciones
 
+entre las opciones del comando podemos encontrar 
+
+##git log Caracteristicas
+
+--oneline:nos muestra el historial 
+--graph:añade un pequeño grafico  ASCII mostrando el historial de ramificaciones y uniones.
+
+
+git log -2 --oneline --graph
+muestra los dos ultimos commit ademas de los parametros oneline y graph
+
+git log --pretty=format:"%h - %an, %ar : %s"
+muestra un log con el formato indicado con una serie de parametros como el autor del commit la hora  
+%ar = fecha
+%s:mensaje del commit
+%an:autor del commit
+
+git log --after="2018-02-16"
+muestra el historial apartir del 16 de febrero del 2018
+
+git log --before="2018-02-16"
+Muestra el historial antes del 2018-02-16
+
+git log --before="2018-02-16 00:00"
+
+Muestra el historial antes del 2018-02-16 y antes de las 00:00 del mismo dia 
+
+git log --after="2018-02-15 23:59:59" --before="2018-02-16 19:00:00"
+
+muestra el historial filtrando apartir y antes de una fecha 
 
 
 
