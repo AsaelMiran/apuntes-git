@@ -75,7 +75,21 @@ Muestra el historial antes del 2018-02-16 y antes de las 00:00 del mismo dia
 
 git log --after="2018-02-15 23:59:59" --before="2018-02-16 19:00:00"
 
-muestra el historial filtrando apartir y antes de una fecha 
+muestra el historial filtrando apartir y antes de una fecha
+
+git log --decorate --oneline 
+
+##git commit --amend (rehace la confirmacion)
+
+Este comando utiliza el area de preparacion para la confirmancion.
+
+Al final terminaras con una sola confirmacion 
+
+- la segunda confirmacion  reemplaza el resultado de la primera
+
+##gitHead.md (Deshace la preparacion)
+
+El archivo o los archivos salen del area de preparacion
 
 
 
