@@ -108,6 +108,13 @@ Clona EDGRID pero ahora dentro de la capeta miproyecto
 
 Muestra la diferencias entre 2 commits
 
+##ir en el tiempo 
+
+git checkout "commit"
+
+##regresar al presente
+git checkout master
+
 
 
 
