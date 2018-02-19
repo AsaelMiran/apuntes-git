@@ -53,6 +53,8 @@ entre las opciones del comando podemos encontrar
 --oneline:nos muestra el historial 
 --graph:añade un pequeño grafico  ASCII mostrando el historial de ramificaciones y uniones.
 
+git log --decorate --graph --oneline --all
+
 
 git log -2 --oneline --graph
 muestra los dos ultimos commit ademas de los parametros oneline y graph
@@ -86,11 +88,25 @@ Este comando utiliza el area de preparacion para la confirmancion.
 Al final terminaras con una sola confirmacion 
 
 - la segunda confirmacion  reemplaza el resultado de la primera
+ejemplo:se subio un archivo al directorio git pero con el comando git commit --amed se puede editar el ultimo commit realizado y si hay mas archivos en el area de preparacion los mete en ese commit 
 
-##gitHead.md (Deshace la preparacion)
+##git reset Head.md (Deshace la preparacion)
 
 El archivo o los archivos salen del area de preparacion
 
+## git clone
+git clone https://github.com/escueladigital/EDgrid.git
+
+clona un directorio de git en el ejemplo clonamos el directorio de EDGRID
+
+git clone https://github.com/escueladigital/EDgrid.git Miproyecto;
+
+Clona EDGRID pero ahora dentro de la capeta miproyecto
+
+
+##git diff df0a8ee ce028f8
+
+Muestra la diferencias entre 2 commits
 
 
 
