@@ -1,1 +1,10 @@
-Etiquetas en git
+#git tag
+Muestra todas las etiquetas en el proyecto git 
+
+#Etiquetas ligeras 
+git tag mi-etiqueta
+
+Una etiqueta ligera no es mas que un checksum de un commit guardado en un archivo, no incluye mas informacion. Para crear una etiqueta ligera, no pasamos la opcion ( -a, -s , -m )
+
+
+
