@@ -23,7 +23,15 @@ git show mi-etiqueta
 
 git tag Elimiar.md e276c80
 
-donde el segundo parametro es el punto de la istoria donde de quiere realizar el tag ( e276c80 )	
+donde el segundo parametro es el punto de la istoria donde de quiere realizar el tag ( e276c80 )
+
+##Buscar etiquetas con ciertos parametros
+ git tag -l "v1.*"
+lista las etiquetas que tengan v1.* * = lo que sea 
+v1.Lo que sea
+```
+Lista las etiquetas que coincidan con el patron especificado
+´´´	
 
 
 

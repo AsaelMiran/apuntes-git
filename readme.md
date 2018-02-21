@@ -21,6 +21,7 @@ git config --list
 
 
 ##git commit -a  -m  "Saltando el area de preparacion";
+##git commit -am "equivalente a git commit -a -m "memsaje commit" "
 
    agrega los al chivos que ya estamos ratreando en el repocitorio de git 
 
