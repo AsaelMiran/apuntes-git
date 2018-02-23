@@ -117,6 +117,8 @@ git checkout "commit"
 git checkout master
 
 
+#ESta linea fue creada en la rama master
+
 
 
 
