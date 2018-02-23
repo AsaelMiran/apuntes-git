@@ -10,3 +10,7 @@ cambiar a otra rama
 git checkout testing
 
 #HEAD apunta siempre a donde nos encontremos  la rama que apunte a head se muve con forme el proyecto avanze las demas se quedan en el pasado o dende se hayan movido
+
+puedo crear todas las ramas que quiera o necesite
+Las ramas nuevas que se crean apuntan al commit actual
+
