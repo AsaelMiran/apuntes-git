@@ -82,7 +82,7 @@ muestra el historial filtrando apartir y antes de una fecha
 
 git log --decorate --oneline 
 
-##git commit --amend (rehace la confirmacion)
+## git commit --amend (rehace la confirmacion)
 
 Este comando utiliza el area de preparacion para la confirmancion.
 
@@ -91,7 +91,7 @@ Al final terminaras con una sola confirmacion
 - la segunda confirmacion  reemplaza el resultado de la primera
 ejemplo:se subio un archivo al directorio git pero con el comando git commit --amed se puede editar el ultimo commit realizado y si hay mas archivos en el area de preparacion los mete en ese commit 
 
-##git reset Head.md (Deshace la preparacion)
+## git reset Head.md (Deshace la preparacion)
 
 El archivo o los archivos salen del area de preparacion
 
@@ -127,7 +127,12 @@ git checkout testing
 #HEAD apunta siempre a donde nos encontremos  la rama que apunte a head se muve con forme el proyecto avanze las demas se quedan en el pasado o dende se hayan movido
 
 
+
+
 #ESta linea fue creada en la rama master
+
+##Eliminar un tag
+git tag -d mi-etiqueta
 
 
 
