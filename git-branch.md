@@ -25,3 +25,20 @@ puedo crear todas las ramas que quiera o necesite
 Las ramas nuevas que se crean apuntan al commit actual
 
 >>>>>>> testing
+
+## git branch -d nombreRama
+Elimina nombreRama si ya ha sido fucionada con la rama actual 
+
+##git branch -D nombre rama 
+
+Elimina nombreRama esté o no este fusionada con la rama actual.
+
+Se fuerza el borrado, se pierden los cambis.
+
+##git branch --no--merged 
+permite saber que ramas no se han fucionado a un a la rama actual.
+
+##git branch --merged
+no permite saber que ramas ya han sido fucionadas a la rama actual
+
+
