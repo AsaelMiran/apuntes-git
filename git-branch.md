@@ -13,5 +13,9 @@ git checkout testing
 
 
 ##git branch 
+<<<<<<< HEAD
 muestra todas las ramas y en cual de ella nos econtramos
 
+=======
+muestra todas las ramas y en cual de ella nos econtramos
+>>>>>>> universo3
