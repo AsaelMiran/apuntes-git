@@ -18,5 +18,6 @@ hacer push de mis cambios (enviar los commit locales a GitHub) `git push origin 
 
 8.- Esperar a que el administrador del repositorio acepte mis cambios.
 
-
+## git fetch origin master
+para traer los cambios realizados en el directorio remoto de github
 
