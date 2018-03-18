@@ -136,6 +136,11 @@ git tag -d mi-etiqueta
 
 
 
+##varios repositorios remotos
+podemos configurar un mismo proyecto para sincronizar cambios con varios repositorios remotos
+
+
+
 
 
 

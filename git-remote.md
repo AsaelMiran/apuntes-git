@@ -21,3 +21,9 @@ hacer push de mis cambios (enviar los commit locales a GitHub) `git push origin 
 ## git fetch origin master
 para traer los cambios realizados en el directorio remoto de github
 
+##git remote rename origin github
+Permite renombrar el repositorio remoto
+
+##push -u bitbucket master
+permite subir un repositorio, en este caso se esta subiendo a bitbucket se recomienda usar la bandera -u cuando es la primera vez que se esta subiendo el proyecto y estamos empujando la rama master
+
