@@ -25,5 +25,8 @@ para traer los cambios realizados en el directorio remoto de github
 Permite renombrar el repositorio remoto
 
 ##push -u bitbucket master
-permite subir un repositorio, en este caso se esta subiendo a bitbucket se recomienda usar la bandera -u cuando es la primera vez que se esta subiendo el proyecto y estamos empujando la rama master
+permite subir un repositorio, en este caso se esta subiendo a bitbucket se recomienda usar la bandera -u cuando es la primera vez que se esta subiendo el proyecto y estamos empujando la rama master 
+
+##git remote remove bitbucket
+Eliminar una rama remota con remove nombre de la rama
 
