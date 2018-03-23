@@ -139,6 +139,9 @@ git tag -d mi-etiqueta
 ##varios repositorios remotos
 podemos configurar un mismo proyecto para sincronizar cambios con varios repositorios remotos
 
+##git config --global --unset-all core.email
+Elimina alguna configuracion que este como global en este caso eliminamos el core.email que no estaba bien declarada pues la declaracion es: 
+user.email=watatarir@gmail.com
 
 
 

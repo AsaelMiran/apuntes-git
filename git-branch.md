@@ -35,7 +35,7 @@ Elimina nombreRama esté o no este fusionada con la rama actual.
 
 Se fuerza el borrado, se pierden los cambis.
 
-##git branch --no--merged 
+##git branch --no --merged 
 permite saber que ramas no se han fucionado a un a la rama actual.
 
 ##git branch --merged
