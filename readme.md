@@ -1,55 +1,59 @@
-##Curso de git desde cero
+## Curso de git desde cero
 Sistema de control de versiones para el mantenimiento eficiente y confiable de archiivos 
 
-##Zonas de git
+## Zonas de git
 
 1.- Directorio de trabajo
 2.- Area de preparacion 
 3.- Directorio de git
 
-##Flujo de trabajo basico en git 
+## Flujo de trabajo basico en git 
 1.- Modificar una serie de archivos eb tu directorio de trabajo.
 2.- Prepara los archivos, añadiendolos a tu area de preparacion.
 3.- Confirma los cambios, lo que toma los archivos tal y como estan en el area de preparacion y almacena esa copia instantanea de manera permanente en tu directorio de git.
 
-##Configurando git por primera vez 
-```git config --global user.name "John Doe"
+## Configurando git por primera vez 
+
+```
+git config --global user.name "John Doe"
 git config --global user.email roster@gmail.com
 git config --global core.editor subl
 git config --list
 ```
 
 
-##git commit -a  -m  "Saltando el area de preparacion";
-##git commit -am "equivalente a git commit -a -m "memsaje commit" "
+## git commit -a  -m  "Saltando el area de preparacion";
+## git commit -am "equivalente a git commit -a -m "memsaje commit" "
 
-   agrega los al chivos que ya estamos ratreando en el repocitorio de git 
+agrega los al chivos que ya estamos ratreando en el repocitorio de git 
 
 
-##git commit 
-   permite hacer un comit desde el editor de texto predeterminado
+## git commit 
+permite hacer un comit desde el editor de texto predeterminado
 
-##git rm
+## git rm
 Elimina  un archivo
 
-##git checkout -- archivo
+## git checkout -- archivo
 recupera el archivo 
 
-##git mv 
+## git mv 
+
 git mv file_from file_to
 Renombrar archivos
 Equivalente a los siguientes pasos
+
 ```
 1.-Renombrar el archivo manualmente
 2.- git rm eliminar el archivo con git
 3.- git add para agregar el archivo con el nuevo nombre
 ```
-##git log 
+## git log 
 Muesta el historial de confirmaciones
 
 entre las opciones del comando podemos encontrar 
 
-##git log Caracteristicas
+## git log Caracteristicas
 
 --oneline:nos muestra el historial 
 --graph:añade un pequeño grafico  ASCII mostrando el historial de ramificaciones y uniones.
@@ -105,18 +109,18 @@ git clone https://github.com/escueladigital/EDgrid.git Miproyecto;
 Clona EDGRID pero ahora dentro de la capeta miproyecto
 
 
-##git diff df0a8ee ce028f8
+## git diff df0a8ee ce028f8
 
 Muestra la diferencias entre 2 commits
 
-##ir en el tiempo 
+## ir en el tiempo 
 
 git checkout "commit"
 
-##regresar al presente
+## regresar al presente
 git checkout master
 
-##crear una rama en git 
+## crear una rama en git 
 git branch --help
 
 git log --decorate --oneline --all  
@@ -124,22 +128,22 @@ git log --decorate --oneline --all
 cambiar a otra rama 
 git checkout testing
 
-#HEAD apunta siempre a donde nos encontremos  la rama que apunte a head se muve con forme el proyecto avanze las demas se quedan en el pasado o dende se hayan movido
+# HEAD apunta siempre a donde nos encontremos  la rama que apunte a head se muve con forme el proyecto avanze las demas se quedan en el pasado o dende se hayan movido
 
 
 
 
-#ESta linea fue creada en la rama master
+# Esta linea fue creada en la rama master
 
-##Eliminar un tag
-git tag -d mi-etiqueta
+## Eliminar un tag
+git  tag -d mi-etiqueta
 
 
 
-##varios repositorios remotos
+## varios repositorios remotos
 podemos configurar un mismo proyecto para sincronizar cambios con varios repositorios remotos
 
-##git config --global --unset-all core.email
+## git config --global --unset-all core.email
 Elimina alguna configuracion que este como global en este caso eliminamos el core.email que no estaba bien declarada pues la declaracion es: 
 user.email=watatarir@gmail.com
 

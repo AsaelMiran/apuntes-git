@@ -7,6 +7,7 @@ Con este comando vinculamos nuestro repositorio local con github
 permite subir los commit actuales a git en la nube  origin en la rama oculta de git y master es la rama local que queremos subir
 
 ## Pasos para haportar a otro repositorio
+
 1.-hacer un fork en git hub
 2.- clonar el repositorio desde mi cuenta de git hub
 3.- crear una rama local.
@@ -21,12 +22,12 @@ hacer push de mis cambios (enviar los commit locales a GitHub) `git push origin 
 ## git fetch origin master
 para traer los cambios realizados en el directorio remoto de github
 
-##git remote rename origin github
+## git remote rename origin github
 Permite renombrar el repositorio remoto
 
-##push -u bitbucket master
+## push -u bitbucket master
 permite subir un repositorio, en este caso se esta subiendo a bitbucket se recomienda usar la bandera -u cuando es la primera vez que se esta subiendo el proyecto y estamos empujando la rama master 
 
-##git remote remove bitbucket
+## git remote remove bitbucket
 Eliminar una rama remota con remove nombre de la rama
 
